@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #F5F5DC;
+    color: #3B2A20;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #DC143C;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #DC143C;
+}
+
+h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+}
+
+a {
+    color: #B0102F;
+}
+
+strong {
+    color: #DC143C;
+}
+
+figcaption {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+}
+
+header {
+    background-color: #DC143C;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 30px;
+}
+
+.logo {
+    width: 60px;
+}
+
+nav a {
+    color: #FDFD96;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 0 15px;
+}
+
+nav a + a {
+    border-left: 2px solid #FDFD96;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+main img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #DC143C;
+    color: #FDFD96;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery figure {
+    margin: 0;
+}
+
+.gallery img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.video iframe,
+.map iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: 0;
+}
+
+.faq-question {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: #FFF1A6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 15px;
+}
+
+.faq-answer.open {
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #DC143C;
+    color: #FDFD96;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #FDFD96;
+}
